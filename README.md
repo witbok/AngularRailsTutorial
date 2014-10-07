@@ -258,6 +258,8 @@ Next, create an Api::GamesController class at `controllers/api/games_controller.
         respond_with :api, game
       end
 
+      private
+
       def games
         @games ||= Game.all
       end

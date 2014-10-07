@@ -7,6 +7,8 @@ class Api::GamesController < Api::BaseController
     respond_with :api, game
   end
 
+  private
+
   def games
     @games ||= Game.all
   end
