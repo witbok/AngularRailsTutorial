@@ -384,8 +384,8 @@ Now that we have an Angular module, we need to add the `ng-app` directive to `ap
     <html ng-app="Games">
     <head>
       <title>Angular App</title>
-      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= stylesheet_link_tag    'application', media: 'all' %>
+      <%= javascript_include_tag 'application' %>
       <%= csrf_meta_tags %>
     </head>
     <body>
