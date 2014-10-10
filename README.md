@@ -234,7 +234,7 @@ Next, we need to fill the DB with some data. In `db/seeds.rb`, create some sampl
     Game.create!(name: "Fire Emblem", description: "Turn Based Strategy Game")
     Game.create!(name: "Hitman", description: "Stealth Game")
     Game.create!(name: "Tetris", description: "Puzzle Game")
-    Game.create!(name: "Harvest Moon", description: "Japanse RPG")
+    Game.create!(name: "Harvest Moon", description: "Japanese RPG")
     Game.create!(name: "Pacman", description: "Arcade Game")
 
 Then run:
