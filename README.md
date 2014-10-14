@@ -342,7 +342,7 @@ Now that our backend is working, we can start creating a frontend. We'll start b
     ...
 
     var APP = angular.module('Games', [
-      'ui-router',
+      'ui.router',
       'templates',
       'restangular'
       ]);
